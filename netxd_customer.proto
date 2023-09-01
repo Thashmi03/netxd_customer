@@ -28,5 +28,5 @@ int64 To_account=3;
 int64 Amount=4;
 }
 message Response {
-int64 Transaction_id=1;
+string message = 1;
 }
